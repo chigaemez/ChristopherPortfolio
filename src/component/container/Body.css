@@ -1,0 +1,171 @@
+@media screen and (min-width: 1200px) {
+  .Body {
+    background-image: url(Screenshot_20220305-000701_FMWhatsApp.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+  }
+  h1 {
+    color: orange !important;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .contact-me {
+    text-decoration: none;
+    border: 3px solid orange;
+    padding: 10px 40px;
+    border-radius: 15px;
+    cursor: pointer !important;
+    font-size: 25px;
+    color: white;
+    margin-top: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .contact-me:hover {
+    text-decoration: dashed;
+    background-color: orange;
+    transition: 0.2s ease-in-out;
+    font-weight: 600;
+  }
+
+  .contact-me:hover {
+    color: black;
+  }
+  .main-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .typed-text {
+    color: white;
+    font-size: 2rem;
+    text-transform: capitalize;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .Body {
+        background-image: url(Screenshot_20220305-000701_FMWhatsApp.jpg);
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        
+      }
+      h1 {
+        color: orange;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 23px;
+        margin-top: 10rem;
+      }
+      .contact-me {
+        text-decoration: none;
+        border: 3px solid orange;
+        padding: 10px 40px;
+        border-radius: 15px;
+        font-size: 17px;
+        color: white;
+        margin-top: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .contact-me:hover {
+        text-decoration: dashed;
+        background-color: orange;
+        transition: 0.2s ease-in-out;
+      }
+    
+      .contact-me:hover {
+        color: white;
+      }
+      .main-info {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .typed-text {
+        color: white;
+        font-size: 1.4848rem;
+        text-transform: capitalize;
+      }
+}
+
+
+@media (min-width:601px) and ( max-width: 1199px ){
+  .Body {
+    background-image: url(Screenshot_20220305-000701_FMWhatsApp.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+  }
+  h1 {
+    color: orange;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 18rem;
+
+  }
+  .contact-me {
+    text-decoration: none;
+    border: 3px solid orange;
+    padding: 10px 40px;
+    border-radius: 15px;
+    font-size: 25px;
+    color: white;
+    margin-top: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .contact-me:hover {
+    text-decoration: dashed;
+    background-color: orange;
+    transition: 0.2s ease-in-out;
+    font-weight: 600;
+  }
+
+  .contact-me:hover {
+    color: black;
+  }
+  .main-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .typed-text {
+    color: white;
+    font-size: 2rem;
+    text-transform: capitalize;
+  }
+}

@@ -1,0 +1,308 @@
+@media screen and (min-width: 1200px) {
+  .contact-us {
+    height: 38rem;
+    text-align: center;
+  }
+  .contact-us header {
+    color: orange;
+    font-size: 2.43874rem;
+  }
+  .form {
+    display: inline-flex;
+    width: 100% !important;
+    justify-content: space-evenly;
+  }
+  .form-control {
+    width: 100%;
+    text-align: left;
+    border: none !important;
+  }
+  .form-control input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 40px auto 4px auto;
+    border-radius: 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid orange;
+    font-size: 18px;
+    color: rgb(187, 182, 182);
+  }
+  .text-area {
+    width: 60% !important;
+  }
+  .form textarea {
+    width: 100% !important;
+    height: 35vh;
+    margin-top: 86px !important;
+    background-color: transparent;
+    border: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid orange;
+    resize: none;
+    font-size: 18px;
+    color: rgb(187, 182, 182);
+  }
+  textarea:focus {
+    outline: none;
+    resize: none;
+  }
+  .form-control input:focus {
+    outline: none;
+  }
+
+  .btn {
+    border: 3px solid orange;
+    display: block;
+    padding: 12px;
+    width: 100%;
+    color: rgb(187, 182, 182);
+    font-weight: 600;
+    font-size: 20px !important;
+    margin:30px auto;
+  }
+  .btn:hover {
+    background-color: orange;
+  }
+  .btn:focus {
+    background-color: orange;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .text-area a{
+    font-size: 30px;
+    color: orange;
+    padding: 10px;
+    margin: 40px 40px !important;
+  }
+  
+  .text-area a:hover{
+      color: orange;
+  }
+  .tele{
+    text-decoration: none;
+    font-size: 23px !important;
+
+  }
+  .call{
+    display: inline-block;
+    width: 350px;
+   
+  }
+  .telephone{
+    margin-right: -40px !important;
+    color: orange !important;
+  }
+ 
+}
+@media screen and (max-width: 600px) {
+  .contact-us {
+    height: 67rem;
+    text-align: center;
+    width: 99%;
+  }
+  .contact-us header {
+    color: orange;
+    font-size: 2.43874rem;
+  }
+  .form {
+    display: block;
+    width: 95%;
+    justify-content: space-evenly;
+  }
+  .form-control {
+    width: 100%;
+    border: none;
+  }
+  .form-control input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 40px auto;
+    border-radius: 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid orange;
+    font-size: 18px;
+    color: rgb(187, 182, 182);
+  }
+  .text-area {
+    width: 100%;
+  }
+  .form textarea {
+    width: 100%;
+    height: 32vh;
+    margin-top: 86px;
+    background-color: transparent;
+    border: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid orange;
+    resize: none;
+    font-size: 18px;
+    color: rgb(187, 182, 182);
+  }
+  textarea:focus {
+    outline: none;
+    resize: none;
+  }
+  .form-control input:focus {
+    outline: none;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+
+  .btn {
+    border: 3px solid orange;
+    display: block;
+    padding: 12px;
+    width: 100%;
+    color: rgb(187, 182, 182);
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .btn:hover {
+    background-color: orange;
+  }
+
+  .text-area a{
+    font-size: 30px;
+    color: white;
+    padding: 40px;
+    margin: 40px auto !important;
+  }
+
+  .tele{
+    text-decoration: none;
+    color: orange;
+    font-size: 23px !important;
+
+  }
+  .call{
+    display: inline-block;
+    width: 350px;
+    margin-top: 20px;
+   
+  }
+  .telephone{
+    margin-right: -40px !important;
+    color: white;
+  }
+}
+
+@media (min-width:601px) and ( max-width: 1199px ){
+
+  .contact-us {
+    height: 65rem;
+    text-align: center;
+    width: 99%;
+  }
+  .contact-us header {
+    color: orange;
+    font-size: 2.43874rem;
+  }
+  .form {
+    display: block;
+    width: 95%;
+    justify-content: space-evenly;
+  }
+  .form-control {
+    width: 100%;
+    border: none;
+  }
+  .form-control input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 40px auto;
+    border-radius: 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid orange;
+    font-size: 18px;
+    color: rgb(187, 182, 182);
+  }
+  .text-area {
+    width: 100%;
+  }
+  .form textarea {
+    width: 100%;
+    height: 32vh;
+    margin-top: 86px;
+    background-color: transparent;
+    border: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid orange;
+    resize: none;
+    font-size: 18px;
+    color: rgb(187, 182, 182);
+  }
+  textarea:focus {
+    outline: none;
+    resize: none;
+  }
+  .form-control input:focus {
+    outline: none;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+
+  .btn {
+    border: 3px solid orange;
+    display: block;
+    padding: 12px;
+    width: 100%;
+    color: rgb(187, 182, 182);
+    font-weight: 600;
+    font-size: 20px;
+    margin: 30px auto;
+  }
+  .btn:hover {
+    background-color: orange;
+  }
+
+  .text-area a{
+    font-size: 30px;
+    color: white;
+    padding: 40px;
+    margin: 60px auto !important;
+  }
+
+  .tele{
+    text-decoration: none;
+    font-size: 23px !important;
+    color: orange !important;
+
+  }
+  .call{
+    display: inline-block;
+    width: 350px;
+   
+  }
+  .telephone{
+    margin-right: -40px !important;
+    color: orange !important;
+  }
+}
