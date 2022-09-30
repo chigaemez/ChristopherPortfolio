@@ -31,9 +31,10 @@ const Contact = ( {contactsection}) => {
 
     return (
         <div className='bg-dark' id ='Contact' ref={contactsection}>
-            <header>Contact Us</header>
+            
 
             <div className="container bg-dark contact-us">
+            <header className='header'>Contact Us</header>
                 <form ref={form} onSubmit={sendEmail}>
                     <div className="form container bg-dark">
                         <div className="form-control bg-dark"> 

@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <div>
             <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-dark ">
-                <div className="container">
+                <div className="container-fluid">
                     <a className="navbar-brand" href="#"><img src={Image} alt="CZAR" /></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@ const Header = () => {
                                 <Link to="Services" spy={true} smooth={true} offset={-130} duration={500} className='nav-link'> Services</Link>
                             </li>
                             <li className="nav-item text-end">
-                                <Link to="Contact" spy={true} smooth={true} offset={-150} duration={500} className='nav-link contact' > Contact</Link>
+                                <Link to="Contact" spy={true} smooth={true} offset={-110} duration={500} className='nav-link contact' > Contact</Link>
                             </li>
                         </ul>
 

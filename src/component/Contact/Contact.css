@@ -1,11 +1,11 @@
 @media screen and (min-width: 1200px) {
   .contact-us {
-    height: 38rem;
+    height: 45rem;
     text-align: center;
   }
-  .contact-us header {
-    color: orange;
-    font-size: 2.43874rem;
+  .contact-us .header {
+    color: orange !important;
+    font-size: 2.43874rem !important;
   }
   .form {
     display: inline-flex;

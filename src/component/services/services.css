@@ -3,6 +3,7 @@
   .header {
     font-size: 30px;
     padding-top: 50px;
+    
   }
   .service {
     display: block;
@@ -19,6 +20,7 @@
     grid-template-columns: repeat(4, 2fr);
     gap: 40px;
     padding: 40px !important;
+    font-family: monospace;
   }
   .web-design {
     display: grid;
