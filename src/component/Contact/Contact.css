@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
   .contact-us {
-    height: 45rem;
+    height: 55rem;
     text-align: center;
   }
   .contact-us .header {
@@ -35,7 +35,7 @@
   }
   .form textarea {
     width: 100% !important;
-    height: 35vh;
+    height: 35vh; 
     margin-top: 86px !important;
     background-color: transparent;
     border: none;
@@ -89,14 +89,11 @@
   }
   .tele{
     text-decoration: none;
+    display: inline;
     font-size: 23px !important;
 
   }
-  .call{
-    display: inline-block;
-    width: 350px;
-   
-  }
+
   .telephone{
     margin-right: -40px !important;
     color: orange !important;
@@ -105,7 +102,7 @@
 }
 @media screen and (max-width: 600px) {
   .contact-us {
-    height: 67rem;
+    height: 88rem;
     text-align: center;
     width: 99%;
   }
@@ -182,33 +179,40 @@
 
   .text-area a{
     font-size: 30px;
-    color: white;
-    padding: 40px;
-    margin: 40px auto !important;
+    margin: 40px 40px !important;
   }
-
+ .holding-med{
+  margin: 60px 0px  !important ;
+ }
   .tele{
     text-decoration: none;
-    color: orange;
     font-size: 23px !important;
+    color: orange !important;
 
   }
   .call{
     display: inline-block;
-    width: 350px;
-    margin-top: 20px;
+    
    
   }
   .telephone{
-    margin-right: -40px !important;
-    color: white;
+    color: orange !important;
+
+  }
+  .tele:hover{
+    color: orange !important;
+    text-decoration: none
+  }
+  .media-check:hover{
+    color: orange !important;
+    text-decoration: none
   }
 }
 
 @media (min-width:601px) and ( max-width: 1199px ){
 
   .contact-us {
-    height: 65rem;
+    height: 85rem;
     text-align: center;
     width: 99%;
   }
@@ -282,12 +286,10 @@
   .btn:hover {
     background-color: orange;
   }
-
+ 
   .text-area a{
     font-size: 30px;
-    color: white;
-    padding: 40px;
-    margin: 60px auto !important;
+    margin: 60px 60px !important;
   }
 
   .tele{
@@ -298,11 +300,21 @@
   }
   .call{
     display: inline-block;
-    width: 350px;
+    
    
   }
   .telephone{
-    margin-right: -40px !important;
     color: orange !important;
+
   }
+ 
+
+.tele:hover{
+  color: orange !important;
+  text-decoration: none
+}
+.media-check:hover{
+  color: orange !important;
+  text-decoration: none
+}
 }

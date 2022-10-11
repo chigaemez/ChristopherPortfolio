@@ -30,12 +30,13 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .About {
     width: 90%;
     display: block;
     text-align: center;
     margin: 50px auto;
+    justify-content: space-around;
   }
   .About img {
     width: 99%;
@@ -44,14 +45,15 @@
   }
   .img {
     border: 4px dashed orange;
-    width: 100%;
+    width: 70%;
     border-radius: 50%;
     padding: 5px 5px;
+    margin: auto;
   }
   .about {
     display: block;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px !important;
   }
   .about p {
     font-size: 20px;
@@ -61,10 +63,10 @@
   
 }
 
-@media (min-width: 601px) and (max-width: 1199px) {
+@media (min-width: 801px) and (max-width: 1199px) {
   .About {
     width: 70%;
-    display: block;
+    display: flex;
     justify-content: space-around;
     text-align: center;
     margin: 80px auto;
@@ -79,7 +81,7 @@
     width: 90%;
     border-radius: 50%;
     padding: 5px 5px;
-    margin: auto;
+    margin: auto !important;
     justify-self: center;
   }
 

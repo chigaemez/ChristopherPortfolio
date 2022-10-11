@@ -1,6 +1,5 @@
 @media screen and (min-width: 1200px) {
   .navbar-brand {
-    font-size: 2.145rem !important;
     width: 10% !important;
     color: white !important;
     font-weight: 600;
@@ -18,7 +17,7 @@
 
   .nav-item {
     margin-right: 2.4764rem !important;
-    font-size: 1.1383rem !important;
+    font-size: 1.2383rem !important;
     color: white !important;
     text-transform: uppercase;
   }
@@ -73,21 +72,31 @@
         border-radius: 30px;
       }
     
-      .navbar {
-        justify-content: end !important;
-        align-items: flex-end;
-        padding: 0.3284rem 2.6494rem !important;
-      }
+      /* .navbar {
+        display: flex;
+        justify-content: space-around !important;
+        align-items: center;
+        text-align: center;
+      } */
     
       .nav-item {
         font-size: 1.1383rem !important;
         color: white !important;
         text-transform: uppercase;
+        display: flex;
+        justify-content: space-around !important;
+        align-items: center;
+        text-align: center;
       }
       .nav-link {
         color: white !important;
         cursor: pointer;
-        margin: auto 0.4342rem;
+        width: 100% !important;
+        margin: 0.3434 0.4342rem;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
         border: 0.1938rem solid rgba(255, 255, 255, 0);
       }
     
@@ -103,7 +112,7 @@
       }
       .contact {
         border: 0.10113rem solid orange !important;
-        padding: 0.4444rem 1.9444rem !important;
+        padding: 0.4444rem 7.9444rem !important;
         border-radius: 1.019rem !important;
       }
       .contact:hover {
@@ -138,10 +147,15 @@
     font-size: 1.1383rem !important;
     color: white !important;
     text-transform: uppercase;
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    text-align: center;
   }
   .nav-link {
     color: white !important;
-    margin: auto 0.4342rem;
+    text-align: center;
+    margin: 0.8324rem 0.4342rem;
     border: 0.1938rem solid rgba(255, 255, 255, 0);
   }
 
@@ -156,7 +170,7 @@
   }
   .contact {
     border: 0.10113rem solid orange !important;
-    padding: 0.4444rem 1.9444rem !important;
+    padding: 0.4444rem 4.9444rem !important;
     border-radius: 1.019rem !important;
   }
   .contact:hover {

@@ -38,8 +38,7 @@ const Contact = ( {contactsection}) => {
                 <form ref={form} onSubmit={sendEmail}>
                     <div className="form container bg-dark">
                         <div className="form-control bg-dark"> 
-                            <input type="text"
-                                placeholder='Full Name' name='user_name' className='bg-dark' />
+                            <input type="text" placeholder='Full Name' name='user_name' className='bg-dark' />
                             <input type="number" name='user_number' placeholder='Phone Number' className='bg-dark' required />
                             <input type="text" name='user_email' placeholder='Valid Email' className='bg-dark' required />
                             <input type="text" name='user_subject' placeholder='Subject' className='bg-dark' required />
@@ -50,16 +49,18 @@ const Contact = ( {contactsection}) => {
                             <textarea name="user_message" id="" cols="30" rows="10" placeholder='Please Discribe Shortly on your Project' required></textarea>
                             <input type="submit" value="Contact Me" className='btn btn-block' />
 
-                            <a href="https://www.facebook.com/kulture.darlington" target={'_blank'}><FaFacebook /></a>
-                            <a href="https://twitter.com/Czarchr60510123?t=7cC4kSbzjvRGzLMXaDYP4g&s=09" target={'_blank'}><FaTwitter /></a>
-                            <div className="call">
-                            <FaPhone  className='telephone'/>
-                            <a className='tele' href="tel:+2349122174699"> +2349122174699</a>
+                            <div className="holding-med">
+                            
+                            <a href="https://www.facebook.com/kulture.darlington"  target={'_blank'}><FaFacebook className='telephone'/></a>
+                            <a href="https://twitter.com/Czarchr60510123?t=7cC4kSbzjvRGzLMXaDYP4g&s=09"  target={'_blank'}><FaTwitter className='telephone' /></a>
+                            
+                            <a className='telephone' href="tel:+2349122174699" ><FaPhone  className='telephone'/></a>
+                            
                             </div>
                         </div>
 
-                    </div>
-
+                    </div>   
+ 
 
                 </form>
 
